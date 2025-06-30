@@ -63,3 +63,10 @@ However, using a proxy introduces risks:
 ### 🚀 Next Step:
 
 - Task 5: Model Development using this proxy target.
+
+### ✅ Task 5 Completed
+
+- Built a machine learning pipeline to predict customer clusters.
+- Achieved an accuracy of 99%.
+- Model saved for future predictions.
+- Ready for deployment or further analysis.
