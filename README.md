@@ -36,3 +36,19 @@ However, using a proxy introduces risks:
 | 🛑 May have lower accuracy if relationships are not linear.               | ⚠️ Higher regulatory scrutiny if explainability is lacking.       |
 
 **Conclusion:** In regulated environments like banking, there is often a preference for simpler, interpretable models unless explainability techniques (like SHAP) are applied to complex models.
+
+### ✅ Task 3 Completed
+
+- Built a robust feature engineering pipeline with:
+
+  - Date extraction
+  - Aggregation (customer-level)
+  - Handling missing values
+  - Scaling numeric features
+  - Encoding categorical features
+
+- Saved and tested the pipeline for future predictions.
+
+### 🚀 Next Step:
+
+- Task 4: Create a proxy target variable using RFM analysis and K-Means clustering.
