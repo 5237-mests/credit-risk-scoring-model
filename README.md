@@ -52,3 +52,14 @@ However, using a proxy introduces risks:
 ### 🚀 Next Step:
 
 - Task 4: Create a proxy target variable using RFM analysis and K-Means clustering.
+
+### ✅ Task 4 Completed
+
+- Computed Recency, Frequency, and Monetary (RFM) features.
+- Applied KMeans clustering to segment customers into behavioral groups.
+- Saved 'Cluster' as a proxy target for supervised modeling tasks.
+- Ready to use this proxy target for the next step: model training.
+
+### 🚀 Next Step:
+
+- Task 5: Model Development using this proxy target.
