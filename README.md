@@ -70,3 +70,12 @@ However, using a proxy introduces risks:
 - Achieved an accuracy of 99%.
 - Model saved for future predictions.
 - Ready for deployment or further analysis.
+
+✅ Task 6 Full Breakdown
+🏗️ Step 📄 Description
+✅ API Development Create REST API using FastAPI
+✅ Model Serving Load model from MLflow registry
+✅ Prediction Endpoint /predict to serve risk predictions
+✅ Data Validation Use Pydantic models for input/output
+✅ Containerization Dockerfile + docker-compose.yml
+✅ Continuous Integration GitHub Actions with flake8 + pytest

@@ -9,3 +9,5 @@ uvicorn
 pydantic
 pytest
 flake8
+black
+joblib
