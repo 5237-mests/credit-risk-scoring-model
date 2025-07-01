@@ -11,6 +11,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY ./src ./src
 
+# copy trained model
+COPY ./models ./models
+
+# ✅ Add src to PYTHONPATH so that 'data_processing' is discoverable
+ENV PYTHONPATH="${PYTHONPATH}:/app/src"
+# ✅ Add models to PYTHONPATH so that 'rfm_clustering_model.pkl' is discoverable
+# ENV PYTHONPATH="${PYTHONPATH}:/app/models"
 # Expose port
 EXPOSE 8000
 
